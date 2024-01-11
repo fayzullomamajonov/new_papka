@@ -9,4 +9,4 @@ def get_username(request):
 
 def get_name(request):
     return HttpResponse("<h1> My name is Fayzullo </h1> \
-                        <a href='/users'>Return Users page </a>")
+                        <a style='color:red; href='/users'>Return Users page </a>")
